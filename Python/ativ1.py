@@ -1,0 +1,6 @@
+arq = open("exercicio_1.txt", "r")
+cont = arq.read()
+print("Tipo do conteúdo:", type(cont))
+print("Conteúdo do arquivo:")
+print(repr(cont))
+arq.close()
